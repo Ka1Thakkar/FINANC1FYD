@@ -11,24 +11,22 @@ const About = () => {
         <>
             <Navbar />
             <div className="flex flex-col xl:flex-row gap-10 px-2 sm:px-10">
-                <div className="sm:px-24 px-5 lg:px-0 py-10 flex flex-col lg:flex-row gap-5">
-                    <div className="lg:w-1/2">
+                <div className="sm:px-24 px-5 lg:px-0 py-10 w-full flex flex-col justify-between lg:flex-row gap-20">
+                    <div className="">
                         <h1 className="text-3xl font-medium">
                             About Us
                         </h1>
                         <p className="mt-10 font-medium">
-                            Welcome to the Carsquad website, a fast and convenient way to research and find a vehicle that is right for you. Whether you are looking for a new or used car, truck, or SUV you will find it here. We have helped many customers in or near Mississauga, Brampton, Vaughan, Toronto and North York find the of their dreams!
-                            <br />
-                            <br />
-                            We know that prospective customers are extremely well educated when researching their next vehicle. Carsquad has made it easy to get all the available vehicle information so you can spend less time researching and more time enjoying your purchase. Check out our new specials and used specials for additional savings on your next vehicle.
-                            <br />
-                            <br />
-                            As a premier dealer, we have a huge selection of new and used vehicles from which to choose. Carsquad online and offline customers enjoy vehicle specials every day. We offer service & parts, an online inventory, and outstanding financing options, making Carsquad a preferred dealer serving Mississauga, Brampton, Vaughan, Toronto and North York area buyers. Ready to set up a test drive? Visit our Brampton area dealership in Mississauga, ON today!
+                            Established with a commitment to revolutionize the car-buying experience, FINANC1FYD Dealership stands as a beacon of reliability and excellence in Toronto's automotive industry. Our journey began with a simple yet profound vision: to provide customers with unparalleled access to the finest vehicles coupled with the most competitive financing options available. With this guiding principle at our core, we've meticulously curated a comprehensive inventory of top-quality cars, ensuring there's something for every taste and preference. Whether you're seeking a compact commuter, a family-friendly SUV, or a luxurious sedan, we've got you covered. At FINANC1FYD, we understand that purchasing a car is more than just a transaction – it's an investment in your lifestyle and future. That's why we prioritize transparency, integrity, and customer satisfaction in every interaction, striving to exceed expectations at every turn.<br /><br />
+
+                            What sets FINANC1FYD apart from the rest is our unwavering commitment to making the car-buying process as seamless and stress-free as possible. With access to a network of trusted financial institutions and partnerships with leading banks, we offer our customers exclusive access to the lowest interest rates on the market. Our team of seasoned professionals understands the intricacies of automotive financing and works tirelessly to tailor solutions that fit your unique needs and budget constraints. Whether you have impeccable credit or are facing financial challenges, we believe that everyone deserves the opportunity to drive their dream car. At FINANC1FYD, we go above and beyond to turn your automotive aspirations into reality, guiding you through every step of the process with personalized attention and expertise.<br /><br />
+
+                            At the heart of FINANC1FYD Dealership lies a deep-rooted passion for empowering our customers and enriching their lives through exceptional vehicles and unparalleled service. We take pride in fostering long-lasting relationships built on trust, reliability, and mutual respect. Our commitment to excellence extends beyond the showroom floor – it's ingrained in everything we do. From our meticulously maintained inventory to our dedicated team of automotive enthusiasts, every aspect of the FINANC1FYD experience is designed to exceed your expectations. Whether you're a first-time buyer or a seasoned car enthusiast, we welcome you to join the FINANC1FYD family and embark on a journey of automotive excellence like never before. Discover the difference that quality, integrity, and passion can make – visit FINANC1FYD Dealership today and experience the future of car buying.
                         </p>
                     </div>
-                    <Image src={AboutImage} alt="About Us" className="mt-10 w-full lg:w-1/2 h-fit" />
+                    <Image src={AboutImage} alt="About Us" className="mt-10 w-full lg:w-5/12 h-fit" />
                 </div>
-                <div className="sm:px-16 px-2 lg:px-0 py-10 w-full">
+                <div className="sm:px-16 px-2 lg:w-4/12 lg:px-0 py-10 w-full">
                     <div className="flex items-center justify-center gap-5 w-full bg-red-700 py-4">
                         <Headphones weight="fill" size={32} className="text-white" />
                         <h1 className="text-3xl font-semibold text-white">
@@ -36,19 +34,12 @@ const About = () => {
                         </h1>
                     </div>
                     <div className="flex bg-stone-200/50 items-center justify-start gap-5 lg:px-5 px-20 py-5 border-b-[1px] border-stone-300">
-                        <p className="text-stone-500 font-medium">Sales : <span className="font-semibold text-black">+1 (905) 888-8888</span></p>
+                        <p className="text-stone-500 font-medium">Sales : <span className="font-semibold text-black">+1 705-770-3546</span></p>
                     </div>
                     <div className="flex flex-col bg-stone-200/50 items-start justify-center gap-5 px-20 lg:px-5 py-5 border-b-[1px] border-stone-300">
                         <p className="text-black text-2xl font-bold">Visit Us</p>
-                        <p className="text-stone-500 font-medium">
-                            2206 Dundas St. E.,<br />
-                            Mississauga, ON<br />
-                            L4X 1L9
-                            <br />
-                            <br />
-                            357 Guelph St.,<br />
-                            Georgetown, ON<br />
-                            L7G 4B6
+                        <p className="text-stone-500 font-medium capitalize">
+                            1205 Finch Avenue West<br />North York<br />Toronto<br />M3J 2E8
                         </p>
                     </div>
                     <div className="flex flex-col bg-stone-200/50 items-start justify-center gap-5 lg:px-5 px-20 py-5">

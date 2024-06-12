@@ -60,7 +60,7 @@ const Footer = () => {
                 <div className="flex flex-col items-start sm:w-1/2 justify-center gap-5 font-medium">
                     <p className="text-white text-2xl font-semibold">CONNECT WITH US</p>
                     <div className="flex items-start gap-5 mt-5">
-                        <Phone weight="fill" size={24} className="text-red-500" />
+                        <Phone weight="fill" size={24} className="text-orange-500" />
                         <p className="text-white">Call us at 705-770-3546</p>
                     </div>
                     {/* <div className="flex items-start gap-5">
@@ -69,7 +69,7 @@ const Footer = () => {
                     </div> */}
                     <Link href={'https://www.instagram.com/financ1fyd/'}>
                         <div className="flex items-start gap-5">
-                            <InstagramLogo weight="fill" size={24} className="text-red-500" />
+                            <InstagramLogo weight="fill" size={24} className="text-orange-500" />
                             <p className="text-white">Follow us on Instagram</p>
                         </div>
                     </Link>
