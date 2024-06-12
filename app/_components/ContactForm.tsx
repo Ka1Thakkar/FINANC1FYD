@@ -3,7 +3,7 @@ import { ValidationError, useForm } from "@formspree/react";
 const ContactForm = () => {
     const [state, handleSubmit] = useForm("xpzvvqey");
     if (state.succeeded) {
-        return <p>Thanks for joining!</p>;
+        return <p>We will contact you soon!</p>;
     }
     return (
         <form onSubmit={handleSubmit} className="flex flex-col items-start justify-center gap-5 w-full mt-10">
