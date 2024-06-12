@@ -27,7 +27,7 @@ export default function Home() {
         <p className="text-white text-center text-2xl md:text-3xl font-semibold">
           Come visit us today, and drive your dream car home!
         </p>
-        <button onClick={() => { router.push('/finacning') }} className="bg-orange-500 text-white text-lg px-5 py-2 rounded-md">
+        <button onClick={() => { router.push('/financing') }} className="bg-orange-500 text-white text-lg px-5 py-2 rounded-md">
           Apply for Financing!
         </button>
       </div>
